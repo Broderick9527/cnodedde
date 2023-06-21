@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 250px;
+  background-color: rgb(225, 225, 225);
+}
+
+a{
+  color: rgb(102, 102, 102);
+}
+.w {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: "iconfont"; /* Project id 3683354 */
+  src: url("//at.alicdn.com/t/c/font_3683354_9kbj6oegrbt.woff2?t=1664589662015") format("woff2"),
+    url("//at.alicdn.com/t/c/font_3683354_9kbj6oegrbt.woff?t=1664589662015") format("woff"),
+    url("//at.alicdn.com/t/c/font_3683354_9kbj6oegrbt.ttf?t=1664589662015") format("truetype");
+}
